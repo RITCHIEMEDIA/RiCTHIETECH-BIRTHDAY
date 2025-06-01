@@ -280,6 +280,7 @@ export default function GiftsPage() {
                   <div>
                     <label className="block text-white font-medium mb-2">Payment Method</label>
                     <select
+                      title="Select a gift type"
                       value={giftForm.paymentMethod}
                       onChange={(e) => setGiftForm({ ...giftForm, paymentMethod: e.target.value })}
                       className="w-full p-4 bg-white/10 border border-white/20 text-white rounded-md text-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent"
