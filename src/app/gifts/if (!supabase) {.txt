@@ -1,0 +1,5 @@
+if (!supabase) {
+  alert("Supabase client not initialized. Check your environment variables.");
+  setSubmitting(false);
+  return;
+}
